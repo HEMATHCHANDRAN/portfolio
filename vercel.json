@@ -1,1 +1,10 @@
 
+{
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/handler" }
+  ],
+  "redirects": [
+    { "source": "/old", "destination": "/new", "permanent": true }
+  ],
+  "trailingSlash": false
+}
